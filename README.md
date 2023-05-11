@@ -19,6 +19,7 @@ npm start
 Append the date in Unix timestamp or date string format to the /api/ endpoint:
 ```bash
 /api/1683794482511
+/api/2023-05-11
 ```
 The server will respond with a JSON object containing the Unix timestamp and UTC date string:
 ```json
