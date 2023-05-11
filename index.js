@@ -49,7 +49,7 @@ app.get("/api/:date?", (req, res) => {
     }
     res.status(200).json({
       unix: date.getTime(),
-      utc: date
+      utc: date.toUTCString()
     });
   }
 });
